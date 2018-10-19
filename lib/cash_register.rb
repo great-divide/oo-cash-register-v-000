@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 class CashRegister
   
@@ -34,3 +35,20 @@ class CashRegister
  
 end
 # binding.pry
+=======
+
+class CashRegister
+  
+  def initialize
+    @total = 0
+    discount = self.apply_discount
+  end
+  
+  def total
+    @total = total
+  end
+  
+  def apply_discount
+  end
+end
+>>>>>>> 9b2d1fba3bf5c734f62296d180c04fc7c78665c5
